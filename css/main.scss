@@ -1,0 +1,101 @@
+@import "config";
+
+nav {
+  padding: 2rem 3rem;
+  position: relative;
+  .logo {
+    background: $base-color;
+    padding: 1rem 2rem;
+    position: absolute;
+    border-radius: 2rem;
+    h3 {
+      color: #fff;
+    }
+  }
+  .side-nav {
+    position: absolute;
+    right: 5rem;
+    padding: 1rem 0;
+    .nav-links {
+      padding: 0 2rem;
+      .nav-link {
+        padding: 0.5rem 1rem;
+        margin: 0 0.5rem;
+      }
+    }
+  }
+}
+
+main {
+  &#landing-page {
+    section {
+      padding: 5rem;
+      &.sec-1 {
+        .card {
+          background: #fff;
+          border-radius: 1rem;
+          img {
+            width: 100%;
+            object-fit: cover;
+            border-top-left-radius: 1rem;
+            border-top-right-radius: 1rem;
+          }
+          .card-text {
+            padding: 1rem 0.5rem;
+          }
+        }
+      }
+    }
+  }
+  &#register {
+    .register-form {
+      padding: 5rem 5rem 3rem 5rem;
+      form {
+        padding: 1rem 0;
+      }
+    }
+  }
+  &#post {
+    padding: 5rem 3rem;
+    .btns-wrapper {
+      a {
+        margin: 0 1rem;
+      }
+    }
+    .post-hdr {
+      padding: 1rem 0;
+      img {
+        width: 40%;
+        height: 70%;
+        border-radius: 1rem;
+      }
+    }
+    .post-body {
+      padding: 2rem 0;
+      width: 50%;
+      h3 {
+        margin: 0 0 1rem 0;
+      }
+      ul {
+        padding: 1rem 2rem;
+        li {
+          list-style: decimal;
+          margin: 0.3rem 0;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  background: $base-color;
+  position: absolute;
+  left: 0;
+  right: 0;
+  p {
+    color: #fff;
+  }
+  padding: 2rem;
+}
+
+@import "mobile";

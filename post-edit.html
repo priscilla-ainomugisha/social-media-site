@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>register</title>
+  </head>
+  <body>
+    <nav class="flx jc-btn">
+      <div class="logo">
+        <a href="/"><h3 class="f-size-reg">TellUs</h3></a>
+      </div>
+      <div class="side-nav flx">
+        <!-- <ul class="flx nav-links">
+          <li class="nav-link"><a href="/">home</a></li>
+        </ul> -->
+        <a href="upload.html" class="btn btn-upload">upload</a>
+      </div>
+    </nav>
+    <main id="register">
+      <div class="register-form">
+        <h3 class="f-size-lrg center-align">Edit profile</h3>
+        <form action="" id="register-form">
+          <div class="form-group">
+            <div class="input">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                name="name"
+                placeholder="MUMBERE ASINGYA JOSHUA"
+                class="name"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <h5 class="f-size-reg">Education</h5>
+            <div class="grd grd-cl-3">
+              <div class="input">
+                <label for="university">University</label>
+                <input type="text" name="university" />
+              </div>
+              <div class="input">
+                <label for="secondary">Secondary</label>
+                <input type="text" name="secondary" />
+              </div>
+              <div class="input">
+                <label for="primary">Primary</label>
+                <input type="text" name="primary" />
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input">
+              <label for="statement">Personal Statement</label>
+              <textarea name="statement" id="" cols="30" rows="10"></textarea>
+            </div>
+          </div>
+          <div class="form-group grd grd-cl-2">
+            <div class="input">
+              <label for="image">Photo</label>
+              <input type="file" name="image" id="" />
+            </div>
+            <div class="input">
+              <label for="hobbies">Hobbies</label>
+              <input type="text" name="hobbies" />
+            </div>
+          </div>
+          <button type="submit" class="btn btn-submit">Edit</button>
+        </form>
+      </div>
+    </main>
+    <script src="js/post-edit.js"></script>
+  </body>
+</html>
